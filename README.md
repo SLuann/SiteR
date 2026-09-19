@@ -1,4 +1,7 @@
-# SiteR
+# SiteR - Versão BETA
 
-##Treinando programação com React (.jsx), Testando mecânicas
-##Seguindo alguns tópicos do tutorial NextJs by Vercel e também uma biblioteca do React
+    ## Treinando programação com React (.jsx), Testando mecânicas;
+    ## Seguindo alguns tópicos do tutorial NextJs by Vercel;
+    ## Usando TailWind CSS para Layout;
+    ## Desenvolvendo BETA do site (testes, Projeto Integrador);
+    ## . . .
