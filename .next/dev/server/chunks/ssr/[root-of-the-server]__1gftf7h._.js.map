@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SiteR/app/componentes/EntradaS.jsx"],"sourcesContent":["export default function(){\n    return(\n        <div className=\"justify-self-center\">\n            <button className=\"bg-red-700 text-white p-2\">Começar</button>\n            <button className=\"text-red-700 border-1 p-2\">Créditos</button>\n        </div>\n    )\n}"],"names":["className"],"mappings":";;;;;;AAAe;IACX,qBACI,8OAAC;QAAIA,WAAU;;0BACX,8OAAC;gBAAOA,WAAU;0BAA4B;;;;;;0BAC9C,8OAAC;gBAAOA,WAAU;0BAA4B;;;;;;;;;;;;AAG1D"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SiteR/app/page.jsx"],"sourcesContent":["import EntradaS from \"./componentes/EntradaS\";\n\nexport default function HomePage() {\n  return (\n    <main className=\"flex-1 text-white py-5\">\n      <h1 className=\"text-6xl font-bold justify-self-center\">The Outside Guide</h1>\n      <p className=\"text-xl font-medium justify-self-center py-20\">\n        Lá fora, nada é o que parece. Descubra o que se esconde além da janela...</p>\n      <EntradaS/>\n    </main>\n  );\n}"],"names":["HomePage","className"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBACE,8OAAC;QAAKC,WAAU;;0BACd,8OAAC;gBAAGA,WAAU;0BAAyC;;;;;;0BACvD,8OAAC;gBAAEA,WAAU;0BAAgD;;;;;;0BAE7D,8OAAC,0IAAQ;;;;;;;;;;;AAGf"}}]
+}
