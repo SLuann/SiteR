@@ -15,9 +15,7 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-400: #ff6568;
     --color-red-700: #bf000f;
-    --color-red-800: #9f0712;
     --color-blue-700: #1447e6;
     --color-black: #000;
     --color-white: #fff;
@@ -34,9 +32,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
-      --color-red-400: lab(63.7053% 60.745 31.3109);
       --color-red-700: lab(40.4273% 67.2623 53.7441);
-      --color-red-800: lab(33.7174% 55.8993 41.0293);
       --color-blue-700: lab(36.9089% 35.0961 -85.6872);
     }
   }
@@ -316,11 +312,6 @@
     border-width: 1px;
   }
 
-  .border-4 {
-    border-style: var(--tw-border-style);
-    border-width: 4px;
-  }
-
   .bg-black {
     background-color: var(--color-black);
   }
@@ -329,24 +320,12 @@
     background-color: var(--color-blue-700);
   }
 
-  .bg-red-400 {
-    background-color: var(--color-red-400);
-  }
-
   .bg-red-700 {
     background-color: var(--color-red-700);
   }
 
   .p-2 {
     padding: calc(var(--spacing) * 2);
-  }
-
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
-
-  .px-10 {
-    padding-inline: calc(var(--spacing) * 10);
   }
 
   .py-5 {
@@ -377,16 +356,8 @@
     font-weight: var(--font-weight-medium);
   }
 
-  .text-red-400 {
-    color: var(--color-red-400);
-  }
-
   .text-red-700 {
     color: var(--color-red-700);
-  }
-
-  .text-red-800 {
-    color: var(--color-red-800);
   }
 
   .text-white {
