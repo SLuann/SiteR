@@ -15,12 +15,8 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-200: #ffcaca;
-    --color-red-500: #fb2c36;
     --color-red-700: #bf000f;
-    --color-red-800: #9f0712;
     --color-red-900: #82181a;
-    --color-purple-500: #ac4bff;
     --color-purple-900: #59168b;
     --color-gray-800: #1e2939;
     --color-gray-900: #101828;
@@ -28,8 +24,6 @@
     --spacing: .25rem;
     --text-xs: .75rem;
     --text-xs--line-height: calc(1 / .75);
-    --text-sm: .875rem;
-    --text-sm--line-height: calc(1.25 / .875);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
@@ -38,8 +32,6 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
-    --text-6xl: 3.75rem;
-    --text-6xl--line-height: 1;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
     --font-weight-medium: 500;
@@ -51,12 +43,8 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
-      --color-red-200: lab(86.017% 19.8815 7.75869);
-      --color-red-500: lab(55.4814% 75.0732 48.8528);
       --color-red-700: lab(40.4273% 67.2623 53.7441);
-      --color-red-800: lab(33.7174% 55.8993 41.0293);
       --color-red-900: lab(28.5139% 44.5539 29.0463);
-      --color-purple-500: lab(52.0183% 66.11 -78.2316);
       --color-purple-900: lab(24.9401% 45.2703 -51.2728);
       --color-gray-800: lab(16.1051% -1.18239 -11.7533);
       --color-gray-900: lab(8.11897% .811279 -12.254);
@@ -325,16 +313,8 @@
     height: 45px;
   }
 
-  .h-\[50px\] {
-    height: 50px;
-  }
-
   .min-h-screen {
     min-height: 100vh;
-  }
-
-  .w-\[50px\] {
-    width: 50px;
   }
 
   .w-\[75px\] {
@@ -347,10 +327,6 @@
 
   .w-\[100px\] {
     width: 100px;
-  }
-
-  .w-\[110px\] {
-    width: 110px;
   }
 
   .w-\[125px\] {
@@ -373,10 +349,6 @@
     justify-content: center;
   }
 
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
-  }
-
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -389,28 +361,16 @@
     gap: calc(var(--spacing) * 8);
   }
 
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
-  }
-
-  .gap-20 {
-    gap: calc(var(--spacing) * 20);
-  }
-
-  .gap-100 {
-    gap: calc(var(--spacing) * 100);
-  }
-
   .gap-200 {
     gap: calc(var(--spacing) * 200);
   }
 
-  .justify-self-center {
-    justify-self: center;
+  .self-center {
+    align-self: center;
   }
 
-  .rounded {
-    border-radius: .25rem;
+  .justify-self-center {
+    justify-self: center;
   }
 
   .rounded-lg {
@@ -430,24 +390,12 @@
     background-color: var(--color-gray-900);
   }
 
-  .bg-purple-500 {
-    background-color: var(--color-purple-500);
-  }
-
   .bg-purple-900 {
     background-color: var(--color-purple-900);
   }
 
-  .bg-red-500 {
-    background-color: var(--color-red-500);
-  }
-
   .bg-red-700 {
     background-color: var(--color-red-700);
-  }
-
-  .bg-red-800 {
-    background-color: var(--color-red-800);
   }
 
   .bg-red-900 {
@@ -456,6 +404,10 @@
 
   .bg-\[length\:100\%_100\%\] {
     background-size: 100% 100%;
+  }
+
+  .bg-cover {
+    background-size: cover;
   }
 
   .bg-center {
@@ -492,11 +444,6 @@
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
 
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
-
   .text-8xl {
     font-size: var(--text-8xl);
     line-height: var(--tw-leading, var(--text-8xl--line-height));
@@ -505,11 +452,6 @@
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
-  }
-
-  .text-sm {
-    font-size: var(--text-sm);
-    line-height: var(--tw-leading, var(--text-sm--line-height));
   }
 
   .text-xl {
@@ -532,20 +474,8 @@
     font-weight: var(--font-weight-medium);
   }
 
-  .text-red-200 {
-    color: var(--color-red-200);
-  }
-
-  .text-red-500 {
-    color: var(--color-red-500);
-  }
-
   .text-red-700 {
     color: var(--color-red-700);
-  }
-
-  .text-red-800 {
-    color: var(--color-red-800);
   }
 
   .text-white {

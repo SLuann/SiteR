@@ -10,10 +10,10 @@ export default function Header() {
                 <h1 className="text-white text-4xl font-bold justify-self-center">The Outside Guide (Versão Beta)</h1>
             </div>
             <div className="flex items-center justify-self-center gap-5">
-                <Link href="/Registrar"className="flex text-lg justify-center items-center bg-purple-900 text-white w-[125px] h-[45px] rounded-lg">
+                <Link href="/componentes/Registro"className="flex text-lg justify-center items-center bg-purple-900 text-white w-[125px] h-[45px] rounded-lg">
                     Crie sua conta
                 </Link>
-                <Link href="/Login" className="flex text-white text-lg bg-red-900 justify-center items-center w-[90px] h-[45px] rounded-lg">
+                <Link href="/componentes/Login" className="flex text-white text-lg bg-red-900 justify-center items-center w-[90px] h-[45px] rounded-lg">
                     Faça login
                 </Link>
             </div>
