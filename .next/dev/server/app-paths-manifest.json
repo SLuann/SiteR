@@ -1,7 +1,5 @@
 {
   "/componentes/Creditos/page": "app/componentes/Creditos/page.js",
   "/componentes/HomePage/page": "app/componentes/HomePage/page.js",
-  "/componentes/Login/page": "app/componentes/Login/page.js",
-  "/componentes/Registro/page": "app/componentes/Registro/page.js",
   "/page": "app/page.js"
 }

@@ -1,6 +1,7 @@
 import Header from "./componentes/PageIni/Header";
 import Footer from "./componentes/PageIni/Footer";
 import EntradaS from "./componentes/PageIni/EntradaS";
+import SessoesI from "./componentes/PageIni/SessoesI";
 import FundoLOmain from "./imagens/FundoLOmain.png";
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
                 </p>
 
                 <EntradaS />
+                <SessoesI />
             </main>
 
             <Footer />
