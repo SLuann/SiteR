@@ -41,7 +41,7 @@
       "static/chunks/turbopack-_06rkbud3pyrlm._.js",
       "static/chunks/_219uq1sj0q91c._.js"
     ],
-    "/componentes/Creditos/page": [
+    "/componentes/Registro/page": [
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0qva5cupmdgep._.js",
       "static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js",
       "static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js",
@@ -54,9 +54,9 @@
       "static/chunks/node_modules_@swc_helpers_cjs_1r9vbqwj2323d._.js",
       "static/chunks/_1anvha4rlo79g._.js",
       "static/chunks/turbopack-_06rkbud3pyrlm._.js",
-      "static/chunks/_12lz39v-2q7ch._.js"
+      "static/chunks/_1e51ae1r5rt0t._.js"
     ],
-    "/componentes/HomePage/page": [
+    "/componentes/Login/page": [
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0qva5cupmdgep._.js",
       "static/chunks/1daa_next_dist_compiled_react-dom_cjs_react-dom-client_development_0mp0cp_t-ezj9.js",
       "static/chunks/1q96_modules_next_dist_compiled_react-dom_cjs_react-dom_development_1sqry0_53krp4.js",
@@ -69,7 +69,7 @@
       "static/chunks/node_modules_@swc_helpers_cjs_1r9vbqwj2323d._.js",
       "static/chunks/_1anvha4rlo79g._.js",
       "static/chunks/turbopack-_06rkbud3pyrlm._.js",
-      "static/chunks/_0mdgz5pnsdhpc._.js"
+      "static/chunks/_02l9i1j4tdx13._.js"
     ]
   },
   "pagesChunkGroupBootstrapParams": {},
