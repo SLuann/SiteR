@@ -10,8 +10,7 @@ export default function HomePage() {
             <Header />
 
             <main className="flex-1 bg-center bg-no-repeat bg-[length:100%_100%] text-white py-5"
-                style={{ backgroundImage: `url(${FundoLOmain.src})` }}
-            >
+                style={{ backgroundImage: `url(${FundoLOmain.src})` }}>
                 <h1 className="text-8xl font-bold text-center">
                     The Outside Guide
                 </h1>

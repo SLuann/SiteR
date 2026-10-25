@@ -1,5 +1,5 @@
 {
-  "/componentes/Login/page": "app/componentes/Login/page.js",
-  "/componentes/Registro/page": "app/componentes/Registro/page.js",
+  "/(auth)/Registro/page": "app/(auth)/Registro/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }
