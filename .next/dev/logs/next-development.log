@@ -211,3 +211,20 @@
 {"timestamp":"01:04:43.547","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
 {"timestamp":"01:04:50.977","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
 {"timestamp":"01:04:53.743","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"01:16:43.439","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"01:17:30.567","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"01:17:33.963","source":"Browser","level":"ERROR","message":"./app/(auth)/Login/page.jsx:14:154\nError: Expected '</', got 'jsx text'\n  12 | ...aceholder=\"Digite sua senha\" className=\"w-[400px] h-[50px] font-medium bg-zinc-900 roun...\n  13 | ...ed-600 text-sm hover:underline\">Esqueci minha senha</button>\n> 14 | ...e=\"bg-white hover:bg-red-700 flex w-[100px] h-[40px] font-bold rounded-lg items-center ...\n     |                                                                                                                        \n> 15 | ...\n     |    ^^^^^^^^\n  16 | ...\n  17 | ...\n  18 | ...\n\nParsing ecmascript source code failed "}
+{"timestamp":"01:17:33.965","source":"Server","level":"ERROR","message":"[browser] \"./app/(auth)/Login/page.jsx:14:154\\nError: Expected '</', got 'jsx text'\\n  12 | ...aceholder=\\\"Digite sua senha\\\" className=\\\"w-[400px] h-[50px] font-medium bg-zinc-900 roun...\\n  13 | ...ed-600 text-sm hover:underline\\\">Esqueci minha senha</button>\\n> 14 | ...e=\\\"bg-white hover:bg-red-700 flex w-[100px] h-[40px] font-bold rounded-lg items-center ...\\n     |                                                                                                                        \\n> 15 | ...\\n     |    ^^^^^^^^\\n  16 | ...\\n  17 | ...\\n  18 | ...\\n\\nParsing ecmascript source code failed\" \"\""}
+{"timestamp":"01:17:37.305","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"01:17:44.253","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"01:18:08.839","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"01:18:11.904","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"01:18:27.579","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"01:18:33.796","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"01:18:37.880","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"01:18:55.447","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"01:18:59.764","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"01:19:11.495","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"01:19:50.233","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"01:20:00.158","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"01:20:09.002","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
