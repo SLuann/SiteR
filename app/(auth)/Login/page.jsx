@@ -13,10 +13,10 @@ export default function Login() {
           <input type="password" placeholder="Digite sua senha"
             className="w-full h-[50px] font-medium bg-zinc-900 rounded-xl px-2 text-white placeholder-zinc-300 focus:border-red-600 focus:ring-1 focus:ring-red-600 transition-all" />
           <div className="flex justify-end mt-2">
-            <a className="text-red-600 text-sm hover:underline">Esqueci minha senha </a>
+            <Link href="" className="text-red-600 text-sm hover:underline">Esqueceu sua senha?</Link>
           </div>
         </div>
-        <a href="/Login" className="bg-white hover:bg-red-700 flex w-[100px] h-[40px] font-bold rounded-lg items-center justify-center">Entrar</a>
+        <Link href="/Login" className="bg-gray-900 text-white hover:bg-red-700 flex w-[100px] h-[40px] font-bold rounded-lg items-center justify-center">Entrar</Link>
 
       </div>
     </main>
