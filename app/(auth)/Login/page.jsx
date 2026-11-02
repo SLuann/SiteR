@@ -17,7 +17,7 @@ export default function Login() {
           </div>
         </div>
         <Link href="/Login" className="bg-gray-900 text-white hover:bg-red-700 flex w-[100px] h-[40px] font-bold rounded-lg items-center justify-center">Entrar</Link>
-
+        <Link href="/Registro" className="text-sm text-white font-medium hover:text-red-600 hover:underline">Não possuo uma conta</Link>
       </div>
     </main>
   );

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SiteR/app/layout.jsx"],"sourcesContent":["import Header from \"./componentes/\";\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"pt\">\n      <body>\n        <header><Header/></header>\n        {children}\n        <footer></footer>\n      </body>\n    </html>\n  );\n}"],"names":["RootLayout","children","lang","Header"],"mappings":";;;;;;;;;;;;AAEe,SAASA,WAAW,EAAEC,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAKC,MAAK;kBACT,cAAA,8OAAC;;8BACC,8OAAC;8BAAO,cAAA,8OAACC;;;;;;;;;;gBACRF;8BACD,8OAAC;;;;;;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SiteR/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
-}

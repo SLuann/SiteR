@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SiteR/app/page.jsx"],"sourcesContent":["\n\nexport default function HomePage() {\n    return (\n        <div className=\"min-h-screen flex flex-col\">\n            <Header />\n\n            <main\n                className=\"flex-1 bg-cover bg-center bg-no-repeat text-white py-5\"\n                style={{ backgroundImage: `url(${FundoLOmain.src})` }}\n            >\n                <h1 className=\"text-8xl font-bold text-center\">\n                    The Outside Guide\n                </h1>\n\n                <p className=\"text-xl font-medium text-center py-20\">\n                    Lá fora, nada é o que parece. Descubra o que se esconde além da janela...\n                </p>\n\n                <EntradaS />\n            </main>\n\n            <Footer />\n        </div>\n    );\n}"],"names":["HomePage","className","Header","style","backgroundImage","FundoLOmain","src","EntradaS","Footer"],"mappings":";;;;;;AAEe,SAASA;IACpB,qBACI,8OAAC;QAAIC,WAAU;;0BACX,8OAACC;;;;;0BAED,8OAAC;gBACGD,WAAU;gBACVE,OAAO;oBAAEC,iBAAiB,CAAC,IAAI,EAAEC,YAAYC,GAAG,CAAC,CAAC,CAAC;gBAAC;;kCAEpD,8OAAC;wBAAGL,WAAU;kCAAiC;;;;;;kCAI/C,8OAAC;wBAAEA,WAAU;kCAAwC;;;;;;kCAIrD,8OAACM;;;;;;;;;;;0BAGL,8OAACC;;;;;;;;;;;AAGb"}}]
-}
