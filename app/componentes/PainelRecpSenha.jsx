@@ -113,7 +113,7 @@ export default function PainelRecpSenha({ open, onClose }) {
                 Verificar código
               </h2>
 
-              <p className="text-sm text-zinc-400 mb-3">
+              <p className="text-sm justify-self-center text-zinc-400 mb-3">
                 Digite o código enviado para {email}.
               </p>
 
@@ -157,16 +157,16 @@ export default function PainelRecpSenha({ open, onClose }) {
 
       {modalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center
-          bg-black/70 backdrop-blur-sm p-4">
+          bg-black/50 backdrop-blur-sm p-4">
 
           <div className="w-full max-w-md rounded-2xl border border-red-900
             bg-zinc-950 p-6 text-white shadow-2xl">
 
-            <h2 className="text-2xl font-bold text-red-600 mb-2">
+            <h2 className=" justify-self-center text-2xl font-bold text-red-600 mb-2">
               Nova senha
             </h2>
 
-            <p className="text-sm text-zinc-400 mb-5">
+            <p className="justify-self-center text-sm text-zinc-400 mb-5">
               Crie uma nova senha para sua conta.
             </p>
 
@@ -176,7 +176,7 @@ export default function PainelRecpSenha({ open, onClose }) {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="mb-3 w-full rounded-lg bg-zinc-900 p-3
-                text-white outline-none focus:ring-1 focus:ring-red-600"
+                text-white outline-none focus:ring-1 focus:ring-red-800"
             />
 
             <input
@@ -185,7 +185,7 @@ export default function PainelRecpSenha({ open, onClose }) {
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               className="w-full rounded-lg bg-zinc-900 p-3
-                text-white outline-none focus:ring-1 focus:ring-red-600"
+                text-white outline-none focus:ring-1 focus:ring-red-800"
             />
 
             {message && (
@@ -195,7 +195,7 @@ export default function PainelRecpSenha({ open, onClose }) {
             <button
               onClick={handleChangePassword}
               disabled={loading}
-              className="mt-5 w-full rounded-lg bg-red-800 p-3
+              className="mt-5 w-full rounded-lg bg-gray-900 p-3
                 font-bold hover:bg-red-700 disabled:opacity-50"
             >
               {loading ? "Atualizando..." : "Atualizar senha"}
