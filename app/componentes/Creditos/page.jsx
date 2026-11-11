@@ -1,24 +1,30 @@
 import Link from "next/link";
 
+const creditos = [
+    { funcao: "Desenvolvedores", nomes: ["Jade Raquel", "Shallyson Luann", "Talita Kauanne", "Vinícius Miguel"] },
+    { funcao: "Orientador", nomes: ["Daniel Aguiar"] },
+    { funcao: "Coorientador", nomes: ["Henrique Coelho"] },
+];
+
 export default function Creditos() {
     return (
         <main className="flex flex-col items-center p-10">
 
-            <h1>Créditos</h1>
+        <h1 className="text-4xl font-bold mb-6">Créditos</h1>
 
-            <h2>Sobre o projeto</h2>
-            <p>Descrição do projeto.</p>
+            {creditos.map((grupo) => (
+                <section key={grupo.funcao} className="mt-8 text-center">
+                    <h2 className="text-xl font-semibold">{grupo.funcao}</h2>
 
-            <h2>Desenvolvedores</h2>
-            <p>Nome do desenvolvedor 1</p>
-            <p>Nome do desenvolvedor 2</p>
+                    {grupo.nomes.map((nomes) => (
+                        <p key={nomes}>{nomes}</p>
+                    ))}
+                </section>
+            ))}
 
-            <h2>Tecnologias utilizadas</h2>
-            <p>Next.js, React e Tailwind CSS.</p>
-
-            <Link href="/">
-                Voltar ao início
-            </Link>
+        <Link href="/" className="mt-10 underline hover:opacity-70">
+            Voltar ao início
+        </Link>
 
         </main>
     );
